@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dentista</title>
+    <link rel="stylesheet" href="dentista.css">
+</head>
+<body>
+    <div class="container">
+        <img src="dentista.png" class="imgExtrato" alt="Dentista">
+        <div class="form">
+            <h1>Consultório Odontológico </h1>
+            <p> 
+                Paciente: <input type="text" id="txtPaciente">
+                <input type="button" id="btnAdicionar" value="Adicionar">
+                <input type="button" id="btnPriorizar" value="Urgente">
+                <input type="button" id="btnAtender" value="Atender">
+            </p>
+
+            <p id="outAtendimento" style="font-weight: bold;">
+                <!-- Em atendimento: Silvana -->
+            </p>              
+            <p id="outFila">
+                <!-- 1. Heloísa <br />
+                2. Gilberto <br />
+                3. Patricia <br />
+                4. Carlos <br />
+                5. Michele -->
+            </p>         
+        </div>        
+    </div>      
+    
+    <script src="dentista.js"></script>
+
+
+</body></html>
